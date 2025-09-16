@@ -1,1 +1,14 @@
 /* Add CSS Styling */
+.fancy,.reverse {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
+
+.reverse {
+    background-color: black;
+    color: white;
+}
+
+.fancy {
+    background-color: yellow;
+}
