@@ -17,3 +17,7 @@
     background-color: rgb(169, 247, 192);
     font-weight: bold;
 }
+
+* {
+    outline: 2px solid red;
+}
