@@ -24,3 +24,14 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  
+  border: 1px solid red;
+}

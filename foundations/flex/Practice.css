@@ -1,0 +1,18 @@
+header {
+    --border-width: 5px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-list {
+    flex-grow: 1;
+    flex-shrink: ;
+}
