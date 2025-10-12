@@ -28,10 +28,51 @@ input {
 body {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
-.header {
-  
-  border: 1px solid red;
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+ul {
+  display: flex;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: purple;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: yellow;
+}
+
+a:active {
+  color: orange;
+  text-decoration: underline;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+button {
+  padding: 8px 16px;
 }
